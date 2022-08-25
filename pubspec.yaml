@@ -81,7 +81,7 @@ flavorizr:
   flavors:
     flav_dev:
       app:
-        name: "ProjectName_Dev"
+        name: "Project Name (Dev)"
 
       android:
         applicationId: "com.example.projectname.app.dev"
@@ -92,7 +92,7 @@ flavorizr:
     # this cannot be called test or it throws Android exception: ProductFlavor names cannot start with 'test'
     flav_test:
       app:
-        name: "ProjectName_Test"
+        name: "Project Name (Test)"
 
       android:
         applicationId: "com.example.projectname.app.test"
@@ -103,7 +103,7 @@ flavorizr:
 
     flav_prod:
       app:
-        name: "ProjectName"
+        name: "Project Name"
         
       android:
         applicationId: "com.example.projectname.app"
