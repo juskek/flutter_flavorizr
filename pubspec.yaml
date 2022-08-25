@@ -81,7 +81,7 @@ flavorizr:
   flavors:
     dev:
       app:
-        name: "Dev App"
+        name: "Name_Dev"
 
       android:
         applicationId: "com.example.name.app-dev"
@@ -91,7 +91,7 @@ flavorizr:
         bundleId: "com.example.name.app-dev"
     test:
       app:
-        name: "Test App"
+        name: "Name_Test"
 
       android:
         applicationId: "com.example.name.app-test"
@@ -102,7 +102,7 @@ flavorizr:
 
     prod:
       app:
-        name: "Prod App"
+        name: "Name"
         
       android:
         applicationId: "com.example.name.app"
