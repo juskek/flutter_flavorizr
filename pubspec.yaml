@@ -84,21 +84,21 @@ flavorizr:
         name: "Name_Dev"
 
       android:
-        applicationId: "com.example.name.app-dev"
+        applicationId: "com.example.name.app.dev"
         
 
       ios:
-        bundleId: "com.example.name.app-dev"
+        bundleId: "com.example.name.app.dev"
     test:
       app:
         name: "Name_Test"
 
       android:
-        applicationId: "com.example.name.app-test"
+        applicationId: "com.example.name.app.test"
         
 
       ios:
-        bundleId: "com.example.name.app-test"
+        bundleId: "com.example.name.app.test"
 
     prod:
       app:
