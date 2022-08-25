@@ -79,25 +79,33 @@ flutter:
   # see https://flutter.dev/custom-fonts/#from-packages
 flavorizr:
   flavors:
-    apple:
+    dev:
       app:
-        name: "Apple App"
+        name: "Dev App"
 
       android:
-        applicationId: "com.example.apple"
-        agconnect:
-          config: ".agconnect/apple/agconnect-services.json"
+        applicationId: "com.example.name.app-dev"
+        
 
       ios:
-        bundleId: "com.example.apple"
-
-    banana:
+        bundleId: "com.example.name.app-dev"
+    test:
       app:
-        name: "Banana App"
+        name: "Test App"
+
+      android:
+        applicationId: "com.example.name.app-test"
+        
+
+      ios:
+        bundleId: "com.example.name.app-test"
+
+    prod:
+      app:
+        name: "Prod App"
         
       android:
-        applicationId: "com.example.banana"
-        agconnect:
-          config: ".agconnect/banana/agconnect-services.json"
+        applicationId: "com.example.name.app"
+        
       ios:
-        bundleId: "com.example.banana"
+        bundleId: "com.example.name.app"
