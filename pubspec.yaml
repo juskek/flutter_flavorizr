@@ -79,33 +79,34 @@ flutter:
   # see https://flutter.dev/custom-fonts/#from-packages
 flavorizr:
   flavors:
-    dev:
+    flav_dev:
       app:
-        name: "Name_Dev"
+        name: "ProjectName_Dev"
 
       android:
-        applicationId: "com.example.name.app.dev"
+        applicationId: "com.example.projectname.app.dev"
         
 
       ios:
-        bundleId: "com.example.name.app.dev"
-    test:
+        bundleId: "com.example.projectname.app.dev"
+    # this cannot be called test or it throws Android exception: ProductFlavor names cannot start with 'test'
+    flav_test:
       app:
-        name: "Name_Test"
+        name: "ProjectName_Test"
 
       android:
-        applicationId: "com.example.name.app.test"
+        applicationId: "com.example.projectname.app.test"
         
 
       ios:
-        bundleId: "com.example.name.app.test"
+        bundleId: "com.example.projectname.app.test"
 
-    prod:
+    flav_prod:
       app:
-        name: "Name"
+        name: "ProjectName"
         
       android:
-        applicationId: "com.example.name.app"
+        applicationId: "com.example.projectname.app"
         
       ios:
-        bundleId: "com.example.name.app"
+        bundleId: "com.example.projectname.app"
